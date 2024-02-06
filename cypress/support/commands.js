@@ -26,7 +26,7 @@
 Cypress.Commands.add('login', (username, password) => {
     // Update the URL to your login page
   
-cy.visit('https://smart-process-rh.com/admin/login'); // Visit the login page
+cy.visit('https://smart-process-rh.com/login'); // Visit the login page
 
 cy.get('#data\\.email').click().type("seniordeveloper754@gmail.com"); // Enter the email
 
